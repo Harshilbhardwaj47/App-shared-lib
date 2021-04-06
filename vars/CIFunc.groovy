@@ -1,4 +1,4 @@
-def checkOutFunc(Map config=[], Closure body={}){
+def checkOutFunc(Map config=[:], Closure body={}){
 
 checkout([$class: 'GitSCM',
 
