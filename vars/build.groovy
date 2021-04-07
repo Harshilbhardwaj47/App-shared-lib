@@ -1,5 +1,5 @@
 
-def check(Map config=[:], Closure body={}){
+def chek(Map config=[:], Closure body={}){
 
 checkout([$class: 'GitSCM',
 
