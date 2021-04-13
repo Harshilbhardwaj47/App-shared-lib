@@ -1,5 +1,5 @@
 
 def check(Map config=[:], Closure body={}){
- bat 'mvn %config.command%  pom.xml'
+ bat '%config.command%  pom.xml'
 
 }
