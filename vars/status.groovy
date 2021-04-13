@@ -4,7 +4,7 @@ checkout([$class: 'GitSCM',
 
           branches: [[name: config.branch]],
 
-          extensions: [],
+          extensions: [ [$class: 'CheckoutOption', timeout: 120]],
 
           userRemoteConfigs: [[url: config.repo ]]])
 
