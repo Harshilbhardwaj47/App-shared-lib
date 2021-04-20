@@ -1,6 +1,7 @@
 
 def check(Map config=[:], Closure body={}){
- bat 'mvn %config[command1]%'
+ echo config.command1
+ bat 'mvn %config.command1%'
 
 
 }
